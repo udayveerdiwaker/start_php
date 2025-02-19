@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.navbar a {
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #599f00;
+}
+
+section {
+    padding: 60px 10px;
+    padding: 15px;
+    margin: 70px 0px 0px auto;
+    max-width: 1200px;
+    height: auto;
+    /* background: #0aee1d; */
+
+}
+
+#home {
+    margin-top: -500px;
+    height: 60vh;
+
+}
+
+#home>.container {
+    width: 100%;
+}
+
+#home>.container>.text-start>.display-1 {
+    color: #599f00;
+}
+
+.img {
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: sticky;
+    top: 0;
+}
+
+#about>.container>.row {
+    margin-top: 70px;
+    text-align: center;
+    color: #599f00;
+}
+
+.about-section {
+    margin-top: 150px;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    color: #f5f5f5;
+}
+
+.about-section p {
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destinations,
+.booking-packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.destination,
+.package {
+    flex: 1 1 calc(33% - 1.5rem);
+    /* background: #eaeaea; */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+.destination img,
+.package img {
+    max-width: 100%;
+    height: 40vh;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.destinations,
+.booking-packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.destination,
+.package {
+    flex: 1 1 calc(33% - 1.5rem);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+.destination img,
+.package img {
+    max-width: 100%;
+    height: 40vh;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    background-clip: padding-box;
+    appearance: none;
+    line-height: 1;
+    border: 1px solid var(--bs-border-color);
+
+}
+
+.g-4,
+.gy-4 {
+    --bs-gutter-y: 0.5rem;
+}
+
+.contact .php-email-form input[type=text],
+.contact .php-email-form input[type=email],
+.php-email-form input[type=number],
+.contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--default-color);
+    background-color: var(--surface-color);
+}
+
+.col-lg-5>.info-wrap {
+    margin-top: 35px;
+    height: 50%;
+}
