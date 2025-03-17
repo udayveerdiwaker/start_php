@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
 move_uploaded_file($tmpname,$folder);
  
 
-  header("location:http://localhost/formphp/login.php");
+  header("location:http://localhost/start_php/formphp/login.php");
 
   }
 
