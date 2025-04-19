@@ -84,7 +84,7 @@ while( $rows =mysqli_fetch_assoc($result)){
 }
   ?>
 </table>
-<button type="button" class="btn btn-outline-warning bt"><a href="http://localhost/formphp/submit.php">Ragistration Form</a></button>
+<button type="button" class="btn btn-outline-warning bt"><a href="http://localhost/start_php/formphp/submit.php">Ragistration Form</a></button>
 
 </body>
 </html>
