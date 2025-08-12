@@ -22,6 +22,7 @@ class StudentManager
     private $students = [];
     
 
+
     public function __construct($students = [])
     {
         $this->students = $students;
@@ -69,7 +70,7 @@ class StudentManager
 $manager = new StudentManager(StudentManager::loadFromSession());
 
 // --- Add student from form ---
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add'])) {
+if (isset($_POST['add'])) {
     $name = $_POST['name'];
     $age = $_POST['age'];
     $grade = $_POST['grade'];
@@ -190,7 +191,7 @@ $students = isset($_GET['search']) ? $manager->searchStudent($_GET['search']) : 
         } else {
             foreach ($students as $index => $student) {
                 echo "<tr>
-                <td>" . ($index + 1) . "</td>
+                <td>" . ($index) . "</td>
                 <td>{$student->name}</td>
                 <td>{$student->age}</td>
                 <td>{$student->grade}</td>
